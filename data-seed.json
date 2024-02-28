@@ -1,0 +1,50 @@
+{
+    "Users": [
+      {
+        "username": "Bondan",
+        "email": "bondanherutomo35@gmail.com",
+        "password": "bondan123"
+      },
+      {
+        "username": "Vivi",
+        "email": "vivialfianau@gmail.com",
+        "password": "vivi123"
+      }
+    ],
+    "Products": [
+      {
+        "name": "Product 1",
+        "description": "This is product 1",
+        "price": 10.99,
+        "quantity": 100,
+        "userId" : 1
+      },
+      {
+        "name": "Product 2",
+        "description": "This is product 2",
+        "price": 15.99,
+        "quantity": 50,
+        "userId" : 2
+      }
+    ],
+    "Histories": [
+      {
+        "userId": 1,
+        "productId": 1,
+        "action": "create",
+        "timestamp": "2023-03-15 10:00:00"
+      },
+      {
+        "userId": 1,
+        "productId": 1,
+        "action": "update",
+        "timestamp": "2023-03-16 15:30:00"
+      },
+      {
+        "userId": 2,
+        "productId": 2,
+        "action": "create",
+        "timestamp": "2023-03-17 09:45:00"
+      }
+    ]
+  }
